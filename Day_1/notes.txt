@@ -1,0 +1,183 @@
+wora- write once anywhere
+javac Main.java --->compilation
+java Main ---> execution
+Hello World
+Jdk - tools
+javac -> compiler
+java -> Launcher
+jar -> Archiver/Packager
+javadoc -> Documnetation Generator
+jdb -> Debugger
+
+Data Type
+
+byte
+short
+int
+long
+float
+double
+char
+boolean
+
+Size
+
+1 byte
+2 bytes
+4 bytes
+8 bytes
+4 bytes
+8 bytes
+2 bytes*
+JVM-dependent
+
+Example
+
+100
+20000
+25
+9876543210L
+85.5f
+85.567
+'A'
+true
+
+Usage
+
+Small integers
+Small/medium integers
+Common integers
+Large integers
+Decimal numbers
+Decimal numbers
+Single character
+True/False values
+
+Variable Naming Conventiens
+
+Allowed:
+
+int age;
+int studentAge;
+int student_age;
+int age2;
+int _count;
+
+Not Allowed:
+
+int 2age;          // Cannot start with a digit
+int student-age;   // Hyphens are not allowed
+int student age;   // Spaces are not allowed
+int class;         // Reserved keyword
+
+// Variable Declaration And Initialization
+   dataType variableName = value;
+
+// Examples:
+int age = 25;
+double salary = 45000.50;
+char grade = 'A';
+boolean placed = true;
+String name = "Arun";
+
+// Constants - final
+   final dataType CONSTANT_NAME = value;\
+
+   final double PI = 3.14159;
+
+   PI = 3.14;   //Error: Cannot assign a value to final Variable 'PI'
+
+// Type Casting 
+   // Implicit Casting(Widening)
+   int num = 100;
+   double d = num; // int to double
+
+   // Explicit Casting(Narrowing)
+   double d2 = 9.78;
+   int num2 = (int) d2; //double to int
+
+//Operators
+  // Arithematic Operators: +,-,*,/,%
+  // Relational Operators: ==, !=, >, <, >=, <=
+  // Logical Operators: &&, ||, !
+  // Assignment Operators: =, +=, -=, *=, /=, %=
+  // Increment/Decrement Operators: ++, --
+
+Method
+
+nextInt()
+nextLong()
+nextFloat()
+nextDouble()
+nextBoolean()
+next()
+nextLine()
+nextByte()
+nextShort()
+
+Reads
+
+int
+Long
+float
+double
+boolean
+One token/word
+Entire line
+byte
+short
+
+Example Input
+
+25
+9876543210
+85.5
+85.567
+true
+Vimal
+Vimal Kumar Raj
+100
+20000
+
+// Conditional Statements
+// if
+//if-else
+//if-else if-else
+//nested if
+
+
+//if
+
+if(condition){
+   //statement
+}
+
+//if-else
+if(condition1){
+   //statement if condition is true
+}else{
+   //statement if condiiton is false
+}
+
+//if-else if else
+if(condition1){
+   //statement if condition is true
+}else{
+   //statement if condition is false
+}
+else if(condiiton2){
+   //statement if condiition is true
+}else{
+   //statement if both conditions are false
+}
+
+//nested if
+if(condition1){
+   if(condiiton2){
+      //statement if both condition1 and condiiton2 are true
+   }else{
+      //statement if condition1 is true and condiiton2 is false
+   }else{
+      //statement if condition1 is false
+   }
+}

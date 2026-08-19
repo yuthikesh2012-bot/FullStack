@@ -1,0 +1,53 @@
+Get two numbers from the user and calculate their sum.
+
+Input
+a = 10
+b = 20
+
+Process
+
+Sum = a+b
+
+Output
+30
+
+Get 2 numbers and display addition, substraction, multiplication, division and remainder
+
+Input
+a=10
+b=3
+
+COnvert Minutes to Hours and Minutes
+
+Input
+135
+
+Output
+2 hours 15 Minutes
+
+Get the last digit of the numbers
+
+
+Swapping 2 numbers
+
+a=10
+b=20
+
+a=20
+b=10
+
+Voting eligibility
+
+pass or final
+if mark >=50 
+print pass
+
+Positive , Negative, or Zero
+
+Read a number and print whether it is:
+Positive
+Negative
+Zero
+
+
+Placement eligibility
