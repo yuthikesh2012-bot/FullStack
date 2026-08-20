@@ -6,6 +6,7 @@ public class Convert {
         double minutes = scanner.nextDouble();
         double hours = minutes / 60.0;
         System.out.println(hours + " hours.");
+        scanner.close();
     }
     
 }

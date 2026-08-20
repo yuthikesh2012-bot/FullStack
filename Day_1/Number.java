@@ -11,6 +11,7 @@ public class Number {
         } else {
             System.out.println("The number is zero.");
         }
+        scanner.close();
     }
         
     

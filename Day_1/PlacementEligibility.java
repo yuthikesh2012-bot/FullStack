@@ -18,6 +18,6 @@ public class PlacementEligibility {
         } else {
             System.out.println("You are not eligible for placement.");
         }
+        scanner.close();
     }
-    
 }

@@ -1,0 +1,363 @@
+IF-ELSE VS SWITCH
+
+USE
+
+| if
+| if / else-if
+if / else-if
+
+1 1f
+| switch
+| switch
+| switch
+switch
+| switch
+switch
+switch
+
+| REQUIREMENT
+
+| age >= 18
+| mark >= 50
+| mark >= 80 && attendance >= 75
+| salary > 50000
+| value < 100
+| Checking ranges
+| Complex conditions
+| && conditions
+| || conditions
+| Day 1, 2, 3, 4 ...
+| Month 1, 2, 3 ...
+| Menu 1, 2, 3 ...
+| Operator +, -, ., /
+| Grade A, B, C, D
+| Role admin/student/trainer
+| Multiple fixed choices
+
+
+IMPORTANT SWITCH RULES
+
++
+
+| RULE
+
+Exact value
+Range
+Condition
+| Multiple traditional cases
+| Multiple modern cases
+Character
+String
+Integer
+Constant
+Duplicate value
+
+case 1: case 1:
+
+EXAMPLE
+
+case 50:
+case mark >= 50: INVALID
+if (mark >= 50)
+case 1: case 2: case 3:
+case 1, 2, 3 ->
+case 'A' :
+case "admin":
+case 1:
+final int X = 1; case X:
+INVALID
+
+
+
+
+BREAK AND FALL-THROUGH
+
+| WITH BREAK
+
+| Exits switch
+| No fall-through
+
+| WITHOUT BREAK
+
+Executes matched case| Executes matched case
+break stops execution| Continues to following cases
+Stops at break or end of switch
+| Called fall-through
+
+
+JAVA LOOPS - NOTES
+
+1. WHAT IS A LOOP?
+
+I
+
+A loop is used to execute a block of code repeatedly until a condition
+becomes false.
+
+Instead of:
+
+System.out.println("Hello");
+System.out.println("Hello");
+System.out.println("Hello");
+
+We can write:
+
+for (int i= 1; i <= 3; i++) {
+System.out.println("Hello");
+
+}
+
+2. TYPES OF LOOPS IN JAVA
+
+Loop
+
+for
+while
+do-while
+enhanced for
+
+Use
+
+When the number of iterations is known
+When repetition depends mainly on a condition
+When, the code must execute at least once
+Used to iterate through arrays and collections
+
+3. FOR LOOP
+
+Syntax:
+
+for (initialization; condition; update) {
+
+// statements
+
+}
+
+Example:
+
+for (int i = 1; i <= 5; i++) {
+
+System.out.println(i);
+
+}
+
+Output:
+
+1
+2
+3
+4
+5
+
+
+4. PARTS OF FOR LOOP
+
+for (int i = 1; i <= 5; i++)
+
++
+
++
+
+Update
+Condition
+Initialization
+
+Initialization:
+
+int i = 1
+
+Runs only once when the loop starts.
+
+Condition:
+
+i <= 5
+
+Checked before every iteration.
+
+If true -> Execute loop
+If false -> Stop loop
+
+Update:
+
+You, 13 minutes ago . Uncommitted chang
+
+i++
+A
+
+Runs after every iteration.
+
+
+8. WHILE LOOP
+
+Syntax:
+
+initialization;
+
+while (condition) {
+
+// statements
+
+update;
+
+}
+
+I
+
+You, 15 minutes ago . Uncommitted changes
+Example:
+
+int i = 1;
+
+while (i <= 5) {
+
+System.out.println(i);
+
+i++;
+
+}
+
+
+10. WHEN TO USE WHILE
+
+Use while when the number of iterations is not necessarily known beforehand.
+
+Example:
+
+Keep asking for a PIN until the correct PIN is entered.
+
+int pin = 0;
+
+while (pin != 1234) {
+
+pin = sc.nextInt();
+
+}
+
+
+11. DO-WHILE LOOP
+
+Syntax:
+
+do {
+
+11
+
+} while (condition);
+
+statements
+
+Example:
+
+int i = 1;
+
+do {
+
+System.out.println(i);
+
+i++;
+
+} while (i <= 5);
+
+
+14. LOOP COMPARISON
+
+Feature
+
+Condition checked
+Minimum execution
+Known count
+Condition-based
+Must execute once
+Update location
+
+for
+
+Before
+0
+Best choice
+Possible
+Not guaranteed
+Usually header
+
+do-while
+
+After
+1
+Possible
+Possible
+Yes
+Usually body
+
+while
+
+Before
+0
+Possible
+Best choice
+Not guaranteed
+Usually body
+
+
+15. ENHANCED FOR LOOP / FOR-EACH
+
+Used mainly with arrays and collections.
+
+Syntax:
+
+for (dataType variable : array) {
+
+// statements
+
+I
+
+}
+
+Example:
+
+int[].marks= {80, 90, 75, 85};
+
+for (int mark : marks) {
+
+System.out.println(mark);
+
+Output:
+
+B0
+90
+75
+85
+
+
+28. IMPORTANT RULES
+
+Question
+
+Can for execute zero times?
+Can while execute zero times?
+Can do-while execute zero times?
+Does do-while execute at least once?
+Can loop contain if?
+Can loop contain switch?
+Can switch contain loop?
+Can loops be nested?
+Can break stop a loop?
+Can continue skip an iteration?
+Can a loop run infinitely?
+Can for count backwards?
+Can update use i += 2?
+
+Answer
+
+YES
+YES
+NO
+YES
+YES
+YES
+YES
+YES
+YES
+YES
+YES
+YES
+YES

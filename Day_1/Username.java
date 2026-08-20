@@ -31,5 +31,6 @@ public class Username {
         } else {
             System.out.println("Incorrect username.");
         }
+        Scanner.close();
     }
 }

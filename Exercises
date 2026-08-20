@@ -1,0 +1,127 @@
+Write a Java program to read a month number from 1 to 12 and print the corresponding mon h im
+
+If the number is outside the range 1 to 12, print "Invalid Month".
+
+Sample Input:
+
+8
+
+Sample Output:
+
+August
+
+
+Write a program that reads a day number from 1 to 7.
+
+If the day is from 1 to 5, print:
+
+Weekday
+
+If the day is 6 or 7, print:
+
+Weekend
+
+For any other value, print:
+
+Invalid Day
+
+
+-
+
+Write a Java program that reads two numbers and an operator.
+
+Supported operators:
+
++ Addition
+
+Subtraction
+
+* Multiplication
+
+/ Division
+
+Perform the corresponding operation.
+
+MD004/ul-style: Unordered list style [Expected: plus; Actual: dash]
+
+MD004/ul-style: Unordered list style [Expected: plus; Actual: asteri]
+
+
+
+Write a Java program that reads a department and year.
+
+Departments:
+
+1 -> CSE
+
+2 -> ECE
+
+Years:
+
+1 -> First Year
+
+2 > Second Year
+
+3 -> Third Year
+
+4 -> Final Year
+
+Use a nested switch.
+
+The outer switch should select the department.
+
+The inner switch should select the year.
+
+
+Create a restaurant menu.
+Food Category:
+1 -> Pizza
+2 -> Burger
+3 -> Coffee
+
+Pizza:
+1 -> Small Rs. 150
+2 -> Medium Rs. 250
+3 -> Large Rs. 350
+
+Burger:
+1 -> Veg
+2 -> Chicken Rs. 180
+
+Coffee:
+1-> Regular Rs. 80
+2 -> Large Rs. 120
+
+Use nested switch statements.
+
+Rs. 120
+
+
+print the numbers from 1 to n
+
+print even numbers
+
+Write a Java program to read an integer and calculate
+the sum of its digits using a while loop.
+
+Sample Input:
+
+5832
+
+Sample 'Output:
+
+Sum of Digits = 18
+
+again.
+
+The program should stop only when the user enters a
+positive number.
+
+Use a do-while loop.
+
+Write a Java program that asks the user to enter a
+positive number.
+
+If the user enters zero or a negative number, ask
+
+

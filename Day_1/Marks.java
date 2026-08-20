@@ -9,6 +9,7 @@ public class Marks {
         } else {
             System.out.println("Fail");
         }
+        scanner.close();
     }
     
 }
