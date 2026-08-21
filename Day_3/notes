@@ -1,0 +1,84 @@
+--Methods / Funtions--
+
+a method is a block of code that we can write once and call whenever we need it.
+
+
+public static void display()
+access modifier: public - means that the method can be accessed from anywhere in the program.
+class member: static - means that the method belongs to the class rather than an instance of the class.
+return type: void - means that the method does not return any value.
+method name: display - is the name of the method, which is used to call it.
+
+public static void display(){
+    ....//Method Body
+}
+
+Rules
+
+1. Method must be declared inside a class.
+2. Method cannot be declared inside another method.
+3. Method must have a return type (void if it does not return any value).
+4. Method name should follow the camelCase naming convention.
+5. () contains parameters (if any) that the method can accept. If there are no parameters, it will be empty.
+6. {} contains method statements that define what the method does.
+7. Execution starts from main().
+
+
+ATM Applicaton
+    |
+    |-- login()
+    |
+    |-- checkBalance()
+    |
+    |-- withdraw()
+    |
+    |-- deposit()
+    |
+    |-- logout()
+
+
+
+    public class Main{
+        public static void main(Welcome[]){
+            System.out.println("Welcome to the ATM Application");
+    }
+}
+Welcome()
+
+
+public class Main{
+    public static void main(String[] args){
+        System.out.println("Welcome to the ATM Application");
+        System.out.println("Welcome to the ATM Application");
+        System.out.println("Welcome to the ATM Application");
+    }
+}
+
+
+Benefits of using methods
+1. Code Reusability: Methods allow you to write a block of code once and reuse it multiple times throughout your program. This reduces redundancy and makes your code more efficient.
+2. Modularity: Methods help in breaking down a complex program into smaller, manageable pieces. Each method can perform a specific task, making the code easier to understand and maintain.
+3. Better reliability: By encapsulating specific functionality within methods, you can isolate and test individual components of your program. This improves the overall reliability of your code.
+4. Easy Maintenance: When you need to make changes or updates to your code, having methods allows you to modify specific parts without affecting the entire program. This makes maintenance easier and less error-prone.
+5. Reduces Duplicate Code: Methods help in reducing duplicate code by allowing you to reuse the same logic in different parts of your program. This leads to cleaner and more concise code.
+6. Easy Testing: Methods can be tested independently, making it easier to identify and fix issues. You can write unit tests for individual methods to ensure they work as expected.
+
+
+Classes and Objects
+
+What is class?
+a class is a blue print, template or design.
+
+what is object?
+an object is a physical instance of a class. it occupies memory. if 'House Blueprint' is the class 
+
+Components of class:
+Fields(Attributes):What the objects knows(variables).
+Methods(Behaviour): What the object does(functions).
+
+
+Constructors and the this keyword
+
+Types:
+Default Constructor: 
+
