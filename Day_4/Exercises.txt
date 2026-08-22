@@ -1,0 +1,46 @@
+1. In a real banking application, should another programmer be able to directly change your balance to any value?
+
+account.balance = 10000000;
+
+account.balance = -50000;
+
+
+Problem 2 - Payment Processing
+Create a Payment class with overloaded pay() methods.
+
+The system should support:
+pay (double amount)
+- Cash payment
+
+pay(double amount, String upiId)
+
+- UPI payment
+
+pay(double amount, long cardNumber)
+
+- Card payment
+
+
+
+Problem 1 - Employee Salary Calculation
+
+Create a parent class Employee.
+
+Create a method:
+calculateSalary()
+
+Create two child classes:
+FullTimeEmployee
+PartTimeEmp loyee
+
+Each child should override calculateSalary().
+Rules:
+Full-Time Employee
+Monthly Salary = 40000
+
+Part-Time Employee
+Hours = 80
+Rate per hour = 300
+Salary = Hours x Rate
+
+

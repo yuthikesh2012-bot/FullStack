@@ -1,0 +1,111 @@
+Access Modifiers & Encrytion
+ 
+ACCESS Modifiers
+========================================
+Controls visibility/access.
+Example:
+Private int mark;
+
+ENCAPSULATION
+========================================
+Design principle of keeping data and related operations together while controlling access to an objects internal State.
+
+common java approach:
+
+private data:
+    +
+controlled public methods
+(getters/setters or domain methods)
+
+
+ACCESS MODIFIERS
+========================================
+Access modifiers control the visibilty and accessibilty of classes, variables, methods and constructors.
+
+TYPES
+
+1. public
+Widest access.
+2. private
+Accessible only within the same class.
+3. protected
+Accessible within the same package
+and through subclasses according to
+inheritance rules.
+4. default / package-private
+No modifier is written.
+Accessible within the same package.
+
+
+EXAMPLE
+
+class Student {
+public String name;
+private int mark;
+}
+Student s1 = new Student();
+s1.name = "Arun";
+s1.mark =90;
+
+// Allowed
+// ERROR
+
+WHY ACCESS MODIFIERS?
+
+1. Data protection
+2. Access control
+3. Prevent unwanted modification
+4. Support encapsulation
+5. Improve maintainability
+
+
+POLYMORPHISM
+
+Poly = Many
+Morph = Forms
+
+Polymorphism = Many Forms
+
+Definition:
+Polymorphism allows the same method name/interface to have different behavior
+depending on its parameters or the actual object involved.
+
+TYPES
+
+1. Compile-Time Polymorphism
+Achieved using:
+Method Overloading
+
+2. Runtime Polymorphism
+Achieved using:
+Method Overriding
+
+Runtime Polymorphism - Method Overriding
+
+METHOD OVERRIDING
+
+1. Inheritance is required.
+2. Parent and child method names must be same.
+3. Parameter list must be same.
+4. Return type must be compatible.
+5. Child provides a different implementation.
+6. @Override is recommended.
+7. private methods cannot be overridden.
+8. final methods cannot be overridden.
+9. static methods are not overridden in the normal runtime-polymorphism sense.
+
+
+ABSTRACTION
+
+Definition:
+Hide implementation details and expose only necessary
+functionality.
+
+REAL-WORLD IDEA:
+WHAT to do
+
+Visible
+   |   
+HOW it works
+   |   
+Hidden
