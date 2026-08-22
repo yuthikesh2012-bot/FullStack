@@ -46,10 +46,9 @@ class DigitalProduct extends EcommerceProduct{
     }
 }
 public class Inheritance{
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("--Creating Ecommerce Inventory--");
-        physicalProduct physical = new
-physicalProduct("Laptop", 1000, "Electronics", 2, "16x12x2 inches");
+        physicalProduct physical = new physicalProduct("Laptop", 1000, "Electronics", 2, "16x12x2 inches");
         DigitalProduct digital = new DigitalProduct("E-Book", 10, "Education", "5MB", "PDF");
         System.out.println("Physical Product: ");
         physical.display();
