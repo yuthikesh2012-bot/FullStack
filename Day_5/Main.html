@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 - Array and ArrayList</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Day 5 - Array and ArrayList</h1>
+    <section>
+        <h2>Array</h2>
+        <p>Arrays are fixed-size data structures that hold elements of the same type. They  are declared using the following syntax:</p>
+        <pre><code>dataType[] arrayName; // Declaration
+dataType[] arrayName = new dataType[size]; // Initialization</code></pre>
+        <p>Example:</p>
+        <pre><code>int[] numbers = new int[5]; // An array of 5 integers</code></pre>
+    </section>
+    <section>
+        <h2>ArrayList</h2>
+        <p>ArrayLists are dynamic data structures that can grow and shrink in size. They are part of the Java Collections Framework and provide more flexibility than arrays. They are declared using the following syntax:</p>
+        <pre><code>ArrayList<dataType> listName = new ArrayList<>(); // Declaration and Initialization</code></pre>
+        <p>Example:</p>
+        <pre><code>ArrayList<String> names = new ArrayList<>();
+names.add("Alice");
+names.add("Bob");
+names.add("Charlie");</code></pre>
+    </section>
+    <section>
+        <h2>Size of ArrayList</h2>
+        <p>You can get the size of an ArrayList using the <code>size()</code> method:</p>
+        <pre><code>int size = names.size(); // Returns the number of elements in the ArrayList</code></pre>
+    </section>
+    <section>
+        <h2>Example Code</h2>
+        <p>Here is an example of how to use an ArrayList in Java:</p>
+        <pre><code>import java.util.ArrayList;
+public class SizeExample {
+    public static void main(String[] args) {
+        ArrayList<String> names = new ArrayList<>();
+        names.add("Alice");
+        names.add("Bob");
+        names.add("Charlie");
+        System.out.println("Size of ArrayList: " + names.size());
+    }
+}</code></pre>
+    </section>
+</body>
+</html>
