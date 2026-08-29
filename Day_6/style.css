@@ -1,0 +1,22 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(230, 227, 255)
+    color: rgb(45, 45, 45);
+}
+p{
+    font-style: italic;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+#heading1{
+    font-weight: bold;
+    font-size: 24px;
+    font-style: italic; 
+}
