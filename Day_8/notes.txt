@@ -1,0 +1,73 @@
+Client Side:
+Chrome
+Safari
+Firefox
+Mobile App
+Postman
+Frontend Application
+
+Server Side:
+Browser:
+"Give me student 101"
+
+Java Server:
+"Let me find student 101"
+
+Database
+
+Java Server:
+"Found!"
+
+Browser
+
+https://api.example.com/students
+
+
+CLIENT SIDE
+
+Chrome / Safari / Firefox
+Mobile App
+Postman
+Frontend Application
+
+HTTP Request
+"Give me student 101"
+
+SERVER SIDE
+
+Tomcat Server
+(Servlet Container)
+
+Finds the correct Servlet
+
+StudentServlet
+
+"Let me find student 101"
+
+Service / Business Logic
+
+Database (MySQL)
+
+Student data
+
+Service
+
+StudentServlet
+
+Creates HTTP Response
+
+Tomcat
+
+HTTP Response
+
+Host
+Domain = Company / Building
+Host = Specific department insige it
+
+example.com
+
+www.example.con
+api.example.com
+
+- Weblite host
+- APY host

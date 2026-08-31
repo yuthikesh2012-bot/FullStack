@@ -1,0 +1,60 @@
+CSS
+|
+|-Syntax
+|   |-Selectors -> Property -> Value
+|
+|-Adding CSS
+|   |-Inline CSS
+|   |-Internal CSS
+|   |-External CSS
+|
+|-Selectors
+|   |-Element Selector
+|   |-Class Selector
+|   |-ID Selector
+|   |-Universal Selector
+|   |-Group Selector
+|   |-Descendant Selector
+|   |-Child Selector
+|   |-Sibling Selector
+|   |-Attribute Selector
+|
+|-Pseudo-classes
+|   |-:hover
+|   |-:active
+|   |-:focus
+|   |-:checked
+|   |-:Valid
+|   |-:Invalid
+|
+|-Pseudo-elements
+|   |-::before
+|   |-::after
+|
+|-Styling Text
+|   |-Font Family
+|   |-Font Size
+|   |-Font Weight
+|   |-Font Style
+|   |-Text Decoration
+|   |-Text Transform
+|   |-Text Align
+|   |-Line Height
+|   |-Letter Spacing
+|   |-Word Spacing
+
+
+        PSEUDO
+          |
+    -------------
+    |           |
+Pseudo-classes  Pseudo-elements
+    |           |
+  State       Part/Generated
+    |           |
+  hover       before
+  focus       after
+  active
+  checked
+  valid
+  invalid
